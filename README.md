@@ -14,3 +14,4 @@ Status: Whiteboarding, not yet ready.
 ## Benefits
 1. No JQuery - obviously
 2. Small package, we don't have tons of dependencies
+3. Works with both server side and client side Rendering
