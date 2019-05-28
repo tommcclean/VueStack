@@ -1,6 +1,6 @@
 <template functional>
   <div>
-    <div v-if="props.isLoading">
+    <div v-if="props.isLoading" class="text-center">
       <img src="~@/assets/loading-spinner.gif">
     </div>
     <slot v-else/>

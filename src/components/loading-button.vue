@@ -1,6 +1,6 @@
 <template functional>
     <button v-bind:class="[{'no-events': props.isLoading}]">
-        <img v-show="props.isLoading" src="../assets/loading-spinner.svg">
+        <img v-show="props.isLoading" src="../assets/loading-spinner.gif">
         <p>{{props.text}}</p>
     </button>
 </template>
