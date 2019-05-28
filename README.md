@@ -1,7 +1,20 @@
 # VueStack
+This repository is brand new, a work in progress - don't use this in production. 
 VueStack is a mono repo of helpful VueJS components that you can pull into your project to save you time and code.
 
-Status: Whiteboarding, not yet ready.
+$ npm install @thomaswilliammcclean/vuestack --save
+
+```javascript
+<script>
+  import "@thomaswilliammcclean/vuestack";
+</script>
+```
+
+```html
+<loading-container :is-loading="true">
+  <p>TEST</p>
+</loading-container>
+```
 
 ## Included Components
 1. Loading Container:  that accepts loading state as a prop and conditionally renders a spinner or your content in a slot.

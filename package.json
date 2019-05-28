@@ -1,10 +1,11 @@
 {
-  "name": "vuestack",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@thomaswilliammcclean/vuestack",
+  "main": "./dist/vuestack.common.js",
+  "version": "0.2.3",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vuestack",
+    "build": "vue-cli-service build --target lib --name vuestack ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -39,6 +40,13 @@
       "autoprefixer": {}
     }
   },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "browserslist": [
     "> 1%",
     "last 2 versions"

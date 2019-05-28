@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="isLoading">
-      <p>Loading...</p>
+      <img src="../assets/loading-spinner.svg" alt="Loading spinner">
     </div>
     <slot v-else/>
   </div>
