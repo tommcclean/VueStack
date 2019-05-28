@@ -5,6 +5,9 @@ import overlay from './overlay.vue';
 import appPanel from './app-panel.vue';
 import notificationPanel from './notification-panel';
 
+// Load some CSS Globally
+import '../assets/common.css';
+
 const components = {
     loadingContainer,
     loadingButton,

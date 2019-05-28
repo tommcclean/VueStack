@@ -1,14 +1,13 @@
 {
   "name": "@thomaswilliammcclean/vuestack",
   "main": "./dist/vuestack.common.js",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name vuestack ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "animate.css": "^3.7.0",
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
   },
