@@ -1,5 +1,7 @@
 # VueStack
-VueStack is a mono repo of helpful components VueJS components that you can pull into your project to save you time and code.
+VueStack is a mono repo of helpful VueJS components that you can pull into your project to save you time and code.
+
+Status: Whiteboarding, not yet ready.
 
 ## Included Components
 1. Loading Container:  that accepts loading state as a prop and conditionally renders a spinner or your content in a slot.
