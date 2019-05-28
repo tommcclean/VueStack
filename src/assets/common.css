@@ -3,10 +3,6 @@
   pointer-events: none;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .animated {
   -webkit-animation-duration: 0.5s;
   animation-duration: 0.5s;

@@ -1,7 +1,7 @@
 {
   "name": "@thomaswilliammcclean/vuestack",
   "main": "./dist/vuestack.common.js",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name vuestack ./src/components/index.js",

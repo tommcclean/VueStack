@@ -1,6 +1,6 @@
 <template functional>
   <div>
-    <div v-if="props.isLoading" class="text-center">
+    <div v-if="props.isLoading" class="loading-container">
       <img src="~@/assets/loading-spinner.gif">
     </div>
     <slot v-else/>
@@ -18,3 +18,10 @@ export default {
   }
 };
 </script>
+
+<style>
+.loading-container {
+  padding: 15px;
+  text-align: center;
+}
+</style>
