@@ -1,7 +1,7 @@
-<template>
+<template functional>
   <div>
-    <div v-if="isLoading">
-      <img src="../assets/loading-spinner.svg" alt="Loading spinner">
+    <div v-if="props.isLoading">
+      <img src="~@/assets/loading-spinner.svg">
     </div>
     <slot v-else/>
   </div>

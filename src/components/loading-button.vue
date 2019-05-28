@@ -1,7 +1,7 @@
-<template>
-    <button class="btn btn-primary" v-bind:class="[{'no-events': isLoading}]">
-        <img v-show="isLoading" src="../assets/loading-spinner.svg" alt="Loading spinner">
-        <p>{{text}}</p>
+<template functional>
+    <button v-bind:class="[{'no-events': props.isLoading}]">
+        <img v-show="props.isLoading" src="../assets/loading-spinner.svg">
+        <p>{{props.text}}</p>
     </button>
 </template>
 
@@ -26,7 +26,7 @@ button img {
     width: 20px;
     height: 20px;
 }
-button p{
+button p {
     display: inline-block;
     margin: 0;
 }

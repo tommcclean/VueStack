@@ -1,0 +1,8 @@
+.animated{
+    animation-duration: 0.5s;
+}
+
+.no-events{
+    user-select: none;
+    pointer-events: none;
+}

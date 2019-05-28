@@ -1,12 +1,18 @@
-<template>
-    <div class="overlay">
+<template functional>
+    <div class="overlay" v-bind:class="[ props.position === 'absolute' ? 'absolute' : 'fixed']">
         <slot></slot>
     </div>
 </template>
 
 <script>
 export default {
-    name: "overlay"
+    name: "overlay",
+    props:{
+        position: {
+            type: String,
+            default: "absolute"
+        }
+    }
 };
 </script>
 
@@ -19,6 +25,10 @@ export default {
     bottom: 0;
     z-index: 1030;
     background: rgba(0, 0, 0, 0.6);
+}
+
+.overlay.fixed{
+    position: fixed;
 }
 
 @media (max-width: 768px) {
