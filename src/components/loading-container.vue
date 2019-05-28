@@ -1,7 +1,7 @@
 <template functional>
   <div>
     <div v-if="props.isLoading">
-      <img src="~@/assets/loading-spinner.svg">
+      <img src="~@/assets/loading-spinner.gif">
     </div>
     <slot v-else/>
   </div>
